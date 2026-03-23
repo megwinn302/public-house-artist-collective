@@ -1,6 +1,8 @@
 export default function App() {
   return (
     <div className="min-h-screen bg-black text-white">
+
+      {/* NAV */}
       <div className="flex justify-between items-center px-6 py-4 border-b border-gray-800">
         <div>
           <h1 className="text-lg font-semibold">
@@ -16,6 +18,7 @@ export default function App() {
         </button>
       </div>
 
+      {/* HERO */}
       <div className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-center">
         <div>
           <p className="text-sm text-gray-400 mb-4">
@@ -45,127 +48,118 @@ export default function App() {
         <div>
           <img
             src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4"
-            alt="Microphone"
+            alt="Music"
             className="rounded-2xl shadow-lg"
           />
         </div>
       </div>
 
+      {/* ABOUT */}
       <section className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12">
           <div>
             <p className="text-sm text-gray-400 uppercase tracking-widest mb-3">
               About
             </p>
-            <h2 className="text-3xl font-bold leading-tight">
-              A gathering place where Atlanta’s creative community comes together.
+            <h2 className="text-3xl font-bold">
+              A gathering place for Atlanta’s creative community.
             </h2>
             <p className="mt-6 text-gray-300 leading-8">
-              The Public House Artist Collective is a community cultural venue and public house
-              built to support emerging musicians, local artists, and neighborhood connection.
-              We create a space where live performance, hospitality, and creative expression
-              come together in a way that feels welcoming, local, and alive.
-            </p>
-            <p className="mt-4 text-gray-300 leading-8">
-              More than a venue, this is a platform for visibility, belonging, and cultural
-              energy in East Atlanta — a place where artists can grow their audience and the
-              community can gather around music, art, and shared experience.
+              The Public House Artist Collective is a cultural venue designed to support
+              emerging musicians and local artists while creating meaningful community connection.
             </p>
           </div>
 
           <div className="bg-zinc-900 border border-gray-800 rounded-2xl p-8">
-            <p className="text-sm text-gray-400 uppercase tracking-widest mb-4">
-              Why it matters
-            </p>
             <ul className="space-y-4 text-gray-200">
-              <li>• Supports emerging musicians and neighborhood artists</li>
-              <li>• Creates recurring cultural programming in East Atlanta</li>
-              <li>• Strengthens grant, sponsor, and partnership readiness</li>
-              <li>• Connects hospitality with local creative impact</li>
+              <li>• Live music & artist showcases</li>
+              <li>• Community-driven programming</li>
+              <li>• Grant & partnership readiness</li>
+              <li>• Cultural and economic impact</li>
             </ul>
           </div>
         </div>
       </section>
 
+      {/* IMPACT */}
       <section className="border-t border-gray-800 bg-zinc-950">
         <div className="max-w-7xl mx-auto px-6 py-20">
-          <p className="text-sm text-gray-400 uppercase tracking-widest mb-3">
-            Impact
-          </p>
-          <h2 className="text-3xl font-bold leading-tight max-w-3xl">
-            Built to support artists, strengthen community, and create lasting local value.
+          <h2 className="text-3xl font-bold">
+            Built for impact beyond the venue.
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6 mt-10">
-            <div className="border border-gray-800 rounded-2xl p-6 bg-black">
-              <h3 className="text-xl font-semibold">Arts & Culture</h3>
-              <p className="mt-3 text-gray-300 leading-7">
-                A recurring platform for local musicians, visual artists, poets, and makers
-                to perform, exhibit, and connect with new audiences.
+            <div className="border border-gray-800 rounded-2xl p-6">
+              <h3 className="text-xl font-semibold">Arts</h3>
+              <p className="mt-3 text-gray-300">
+                Supporting musicians and artists with real opportunities.
               </p>
             </div>
 
-            <div className="border border-gray-800 rounded-2xl p-6 bg-black">
-              <h3 className="text-xl font-semibold">Community Impact</h3>
-              <p className="mt-3 text-gray-300 leading-7">
-                Programming that brings neighbors together, strengthens belonging, and creates
-                opportunities for social support and outreach-centered collaboration.
+            <div className="border border-gray-800 rounded-2xl p-6">
+              <h3 className="text-xl font-semibold">Community</h3>
+              <p className="mt-3 text-gray-300">
+                Bringing people together through shared experiences.
               </p>
             </div>
 
-            <div className="border border-gray-800 rounded-2xl p-6 bg-black">
-              <h3 className="text-xl font-semibold">Economic Development</h3>
-              <p className="mt-3 text-gray-300 leading-7">
-                Consistent cultural activity that drives foot traffic, supports artists, and
-                contributes to a stronger local creative economy.
+            <div className="border border-gray-800 rounded-2xl p-6">
+              <h3 className="text-xl font-semibold">Economy</h3>
+              <p className="mt-3 text-gray-300">
+                Driving local engagement and creative economy growth.
               </p>
             </div>
           </div>
         </div>
       </section>
 
+      {/* EVENTS */}
       <section className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-6 py-20">
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
-            <div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest mb-3">
-                Events
-              </p>
-              <h2 className="text-3xl font-bold leading-tight">
-                Signature experiences that keep the venue alive.
-              </h2>
-            </div>
-
-            <button className="border border-white px-5 py-3 rounded-lg text-sm font-medium w-fit">
-              View All Events
-            </button>
-          </div>
+          <h2 className="text-3xl font-bold">Upcoming Events</h2>
 
           <div className="grid md:grid-cols-2 gap-6 mt-10">
-            <div className="border border-gray-800 rounded-2xl p-6 bg-zinc-950">
-              <p className="text-sm text-gray-400">Weekly Community Event</p>
-              <h3 className="text-2xl font-semibold mt-2">Open Mic Night</h3>
-              <p className="mt-4 text-gray-300 leading-7">
-                A welcoming stage for emerging musicians, poets, and storytellers to share new work.
+            <div className="border border-gray-800 rounded-2xl p-6">
+              <h3 className="text-xl font-semibold">Open Mic Night</h3>
+              <p className="mt-3 text-gray-300">
+                Weekly showcase for emerging talent.
               </p>
-              <button className="mt-6 bg-white text-black px-5 py-3 rounded-lg font-medium">
-                Get Tickets
-              </button>
             </div>
 
-            <div className="border border-gray-800 rounded-2xl p-6 bg-zinc-950">
-              <p className="text-sm text-gray-400">Featured Performance</p>
-              <h3 className="text-2xl font-semibold mt-2">Atlanta Artist Showcase</h3>
-              <p className="mt-4 text-gray-300 leading-7">
-                A curated night spotlighting emerging local talent and building real audience connection.
+            <div className="border border-gray-800 rounded-2xl p-6">
+              <h3 className="text-xl font-semibold">Artist Showcase</h3>
+              <p className="mt-3 text-gray-300">
+                Curated performances from Atlanta creatives.
               </p>
-              <button className="mt-6 bg-white text-black px-5 py-3 rounded-lg font-medium">
-                Learn More
-              </button>
             </div>
           </div>
         </div>
       </section>
+
+      {/* CONTACT */}
+      <section className="border-t border-gray-800">
+        <div className="max-w-7xl mx-auto px-6 py-20 text-center">
+          <h2 className="text-3xl font-bold">
+            Let’s build something meaningful together.
+          </h2>
+
+          <p className="mt-6 text-gray-300">
+            bookingartistcollective@gmail.com
+          </p>
+
+          <div className="mt-8">
+            <button className="bg-white text-black px-6 py-3 rounded-lg">
+              Contact Us
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      <footer className="border-t border-gray-800 text-center py-6 text-gray-500 text-sm">
+        © 2026 The Public House Artist Collective
+      </footer>
+
     </div>
   );
 }
