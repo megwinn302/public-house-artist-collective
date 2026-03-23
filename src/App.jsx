@@ -1,8 +1,6 @@
 export default function App() {
   return (
     <div className="min-h-screen bg-black text-white">
-
-      {/* NAVBAR */}
       <div className="flex justify-between items-center px-6 py-4 border-b border-gray-800">
         <div>
           <h1 className="text-lg font-semibold">
@@ -18,10 +16,7 @@ export default function App() {
         </button>
       </div>
 
-      {/* HERO */}
       <div className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-center">
-
-        {/* LEFT SIDE */}
         <div>
           <p className="text-sm text-gray-400 mb-4">
             East Atlanta · Music · Art · Community
@@ -47,7 +42,6 @@ export default function App() {
           </div>
         </div>
 
-        {/* RIGHT SIDE (IMAGE) */}
         <div>
           <img
             src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4"
@@ -55,9 +49,43 @@ export default function App() {
             className="rounded-2xl shadow-lg"
           />
         </div>
-
       </div>
 
+      <section className="border-t border-gray-800">
+        <div className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12">
+          <div>
+            <p className="text-sm text-gray-400 uppercase tracking-widest mb-3">
+              About
+            </p>
+            <h2 className="text-3xl font-bold leading-tight">
+              A gathering place where Atlanta’s creative community comes together.
+            </h2>
+            <p className="mt-6 text-gray-300 leading-8">
+              The Public House Artist Collective is a community cultural venue and public house
+              built to support emerging musicians, local artists, and neighborhood connection.
+              We create a space where live performance, hospitality, and creative expression
+              come together in a way that feels welcoming, local, and alive.
+            </p>
+            <p className="mt-4 text-gray-300 leading-8">
+              More than a venue, this is a platform for visibility, belonging, and cultural
+              energy in East Atlanta — a place where artists can grow their audience and the
+              community can gather around music, art, and shared experience.
+            </p>
+          </div>
+
+          <div className="bg-zinc-900 border border-gray-800 rounded-2xl p-8">
+            <p className="text-sm text-gray-400 uppercase tracking-widest mb-4">
+              Why it matters
+            </p>
+            <ul className="space-y-4 text-gray-200">
+              <li>• Supports emerging musicians and neighborhood artists</li>
+              <li>• Creates recurring cultural programming in East Atlanta</li>
+              <li>• Strengthens grant, sponsor, and partnership readiness</li>
+              <li>• Connects hospitality with local creative impact</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
