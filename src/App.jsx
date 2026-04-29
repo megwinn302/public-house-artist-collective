@@ -5,7 +5,7 @@ export default function App() {
       <header className="sticky top-0 z-50 border-b border-stone-800/80 bg-stone-950/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <div>
-            <h1 <img 
+            <h1 
   src="/logo.png" 
   alt="The Public House Artist Collective" 
   className="h-10 w-auto object-contain"
