@@ -5,8 +5,11 @@ export default function App() {
       <header className="sticky top-0 z-50 border-b border-stone-800/80 bg-stone-950/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <div>
-            <h1 className="text-lg font-semibold tracking-wide text-stone-100">
-              The Public House Artist Collective
+            <h1 <img 
+  src="/logo.png" 
+  alt="The Public House Artist Collective" 
+  className="h-10 w-auto object-contain"
+/>
             </h1>
             <p className="text-xs uppercase tracking-[0.25em] text-stone-400">
               Community Cultural Venue
